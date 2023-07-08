@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Laywers Management System</title>
+</head>
+
+<body>
+    <!-- -----navbar---- -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-danger" href="#" class="d-inline-block align-top" alt=""><b>Lawyer Management
+                    System</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="About us.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Users
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Muhammad Mustansar Ali Khan</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Abdullah</a></li>
+                            <li><a class="dropdown-item" href="#">Umer Yasir</a></li>
+                            <li><a class="dropdown-item" href="#">Muhammad Nauman</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-primary">M. Nauman</button>
+                    <a href="index.html">
+                        <button type="button" class="btn btn-outline-primary mx-2">log-out</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- -----Intro---- -->
+    <div class="container my-4">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading text-light ">M.Hashir Niazi <span class="text-danger">(Adv. High
+                        Court)</span></h2>
+                <p class="lead text-light my-4"><span class="text-primary">Name: </span>M.Hashir Niazi<br>
+                    <span class="text-primary">Specialist: </span>Theft<br>
+                    <span class="text-primary">Wining Percentage: </span>95%<br>
+                    <span class="text-primary">Experience: </span>11 years<br>
+                    <span class="text-primary">Status: </span><span class="badge rounded-pill" id="status_value"></span>
+                </p>
+                <a href="Contact.html">
+                    <button type="button" class="btn btn-success">Contact</button>
+                </a>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto border border-light"
+                    width="400" height="350" src="Hashir.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- ------Profile------ -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-primary">
+                <h2>
+                    About
+                </h2>
+                <p class="text-white">
+                    In the real mean of law and justice, the advocate shines,
+                    A skilled professional, defending rights, drawing lines.
+                    With profound knowledge and legal expertise,
+                    They navigate complexities, aiming to appease.
+
+                    An advocate, a voice for the voiceless they become,
+                    Fighting for justice, ensuring none succumb.
+                    With persuasive arguments and eloquence displayed,
+                    They present their case, undeterred, undismayed.
+
+                    Deeply committed to upholding the law,
+                    Advocates tirelessly strive to find the flaw.
+                    They analyze precedents, study every detail,
+                    Crafting strategies that never seem to fail.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Contact-------------- -->
+    <div class="container my-4">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <div class="box bg-light text-center"><br>
+                    <h2><i class="bi bi-telephone"></i></h2>
+                    <p>042-311-408-143</p>
+                </div>
+                <div class="box bg-light text-center"><br>
+                    <h2><i class="bi bi-geo-alt"><br></i></h2>
+                    <p>Lahore, Pakistan</p>
+                </div>
+                <div class="box bg-light text-center"><br>
+                    <h2><i class="bi bi-envelope"><br></i></h2>
+                    <p>Developers@gmail.com</p>
+                </div>
+                <div class="box bg-light text-center"><br>
+                    <h2><i class="bi bi-calendar"><br></i></h2>
+                    <p>Mon-Fri</p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <!-- <img class="featurette-image img-fluid mx-auto border border-light" data-src="holder.js/500x500/auto" alt="500x500"
+                    style="width: 500px; height: 500px;" src="lawyer.jpeg" data-holder-rendered="true"> -->
+                <iframe class="featurette-image img-fluid mx-auto border" width="100%" frameborder="0" scrolling="no"
+                    marginheight="0" marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.558962395743!2d74.31229927478687!3d31.563716345000728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b55c5ff61a3%3A0x20b4b921a31a621!2sLahore%20High%20Court!5e0!3m2!1sen!2s!4v1686054047161!5m2!1sen!2s"
+                    width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="mastfoot mt-auto d-flex justify-content-center align-items-center  mx-auto bg-dark">
+        <div class="inner text-light">
+            <p>© 2020 All Rights Reserved to Developers</p>
+        </div>
+    </footer>
+    <script src="Function.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

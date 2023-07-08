@@ -1,0 +1,35 @@
+body
+{
+    background-color: #202020;
+}
+.card{
+   background-color: #503989;
+   color: white;
+}
+.tabledata{
+    background-color: blue;
+}
+.action{
+    filter: blur(22px);
+}
+.online{
+    background-color: #198754;
+}
+#contactName{
+    width: 90vw;
+    height: 6vh;
+}
+#contact_email{
+    width: 90vw;
+    height: 6vh;
+}
+#contact_subject{
+    width: 90vw;
+    height: 6vh;
+}
+#contact_message{
+    width: 90vw;
+}
+/* .item1:hover{
+    color: #198754;
+} */
