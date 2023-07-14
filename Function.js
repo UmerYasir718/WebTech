@@ -1,3 +1,7 @@
+// -----------------Wellcome----------------
+function showPrompt() {
+    alert("Welcome to Lawyer Management System {UserName: Nauman Password:1960}");
+}
 // -----------------Login Module----------------
 let x = "Nauman"
 let y = "1960"
