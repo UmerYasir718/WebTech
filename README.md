@@ -9,6 +9,6 @@
     <title>Center Image</title>
 </head>
 <body>
-    <img src="[path-to-your-image.jpg](https://github.com/UmerYasir718/WebTech/assets/131971007/b18524d4-ba6a-434c-8c28-e059d12c1520)https://github.com/UmerYasir718/WebTech/assets/131971007/b18524d4-ba6a-434c-8c28-e059d12c1520" alt="Centered Image">
+    <img src="![Final_project](https://github.com/UmerYasir718/WebTech/assets/131971007/d50c3910-5f5f-4dda-82ff-eedda99cba79)" alt="Centered Image">
 </body>
 </html>
